@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Website</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>
+
+        <nav class = "navbar">
+            <u1 class = "logotext">My Portfolio Website <hr></u1>
+            <div class = "navbar-links">
+                <ul>
+                    <li><a href = "portfoliopage.html">Education</a></li>
+                    <li><a href = "linkspage.html">Links</a></li>
+                    <li><a href = "contactpage.html">Contact Page</a></li>
+                </ul>
+            </div>
+            <img src = "Images/white-menu-icon.png" alt = "" class = "menu-hamburger">
+        </nav>
+
+        
+        <header>
+            <div class = "main-logo">
+                <img src = "Images/logo.png" alt = "">
+            </div>
+
+            <div class = "welcome-description">I am a student who is entering his second year studying T-Level Digital Production Design and Development (Level 3) at Middlesbrough College.</div>
+
+            <div class = "college-logo">
+                <img src = "Images/mc.png" alt = "">
+            </div>
+
+            <div class = "tlevel-logo">
+                <img src = "Images/t-level logo.png" alt = "">
+            </div>
+
+            <div class = "skills-intro">
+                <h1>My key skills are:<hr></h1>
+                <br>
+            </div>
+
+            <div class = "skills-description"><h1>- I am a quick typer.<br> - I am proficient in Microsoft Word, PowerPoint and Excel.<br> - I am experienced in Python.<br> - I have good writing skills. <br> - I have gained some experience in both HTML and CSS, in the making of this website.
+            </h1></div>
+
+            <div class="wordlogo">
+                <img src = "images/wordlogo.png" alt = "">
+            </div>
+
+            <div class = "pptxlogo">
+                <img src = "images/pplogo.png" alt = "">
+            </div>
+
+            <div class = "excellogo">
+                <img src = "images/excellogo.png" alt = "">
+            </div>
+
+            <div class = "pylogo">
+                <img src = "images/pythonlogo.png" alt = "">
+            </div>
+
+            <div class = "hbtitle">
+                <h1>Hobbies and Interests</h1>
+                <hr>
+            </div>
+
+            <div class = "football-team">
+                <h1>I support Middlesbrough FC.</h1>
+                <img src = "Images/boro.png" alt  = "">
+            </div>
+
+            <div class = "football2">
+                <h1>I enjoy playing and watching football.</h1>
+                <img src = "Images/football.gif" alt = "">
+            </div>
+
+            <div class = "gaming">
+                <h1>I enjoy playing video games occassionally.</h1>
+                <img src = "Images/valorantlogo.png" alt = "">
+            </div>
+
+            <div class = "fm">
+                <img src = "Images/fmlogo.png" alt = "">
+            </div>
+
+            <div class = "drawing">
+                <h1>I enjoy drawing.</h1>
+                <img src = "Images/doodlebob.png" alt = "">
+            </div>
+
+
+            
+        </header>
+
+
+
+    </body>
+    <script>
+            const menuHamburger = document.querySelector(".menu-hamburger")
+            const navbarLinks = document.querySelector(".navbar-links")
+    
+            menuHamburger.addEventListener('click',()=>{
+            navbarLinks.classList.toggle('mobile-menu')
+            })
+    </script>
+</html>

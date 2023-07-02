@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(Fonts/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+}
+
+body{
+    font-family: 'Gilroy';
+}   
+
+header{
+    height: 110vh;
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/bg.png");
+    background-size: cover;
+}
+.main-logo img{
+    width: 100px;
+    height: auto;
+    margin-top: 190px;
+    margin-left: 120px;
+}
+
+.navbar{
+    position: absolute;
+    padding: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    color: white;
+    font-family: 'Gilroy';
+}
+
+.navbar .logotext{
+    font-size: 3em;
+    color: white;
+}
+
+.navbar .navbar-links ul{
+    display: flex;
+
+}
+
+.navbar .navbar-links li a{
+    color: white;
+    padding: 5px 20px;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.navbar .navbar-links li a:hover{
+    background: white;
+    color: #333;
+}
+
+.navbar .navbar-links ul li{
+    margin: 0 25px;
+
+}
+
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 50px;
+    width: 100px;
+}
+
+.welcome-description{
+    position: absolute;
+    width: 850px;
+    height: 400px;
+    text-align: left;
+    top: 300px;
+    left: 120px;
+    color: white;
+    font-size: 24px;
+
+}
+
+.college-logo img{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 95px;
+}
+
+.tlevel-logo img{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: -500px;
+    margin-bottom: 85px;
+    margin-left: 300px;
+}
+
+.wordlogo img{
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-left: -10px;
+    margin-top: 120px;
+}
+
+.pptxlogo img{
+    position: relative;
+    width: 156px;
+    height: auto;
+    margin-left: 290px;
+    margin-top: -270px;
+    margin-bottom: 52px;
+}
+
+.excellogo img{
+    position: relative;
+    width: 130px;
+    height: auto;
+    margin-left: 480px;
+    margin-top: -270px;
+    margin-bottom: 85px;
+}
+
+.pylogo img{
+    position: relative;
+    width: 140px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: -270px;
+    margin-bottom: 92px;
+}
+
+.skills-intro{
+    position: absolute;
+    width: 850px;
+    height: 400px;
+    text-align: left;
+    top: 490px;
+    left: 120px;
+    color: white;
+    font-size: 12px;
+}
+
+.skills-intro hr{
+    width: 185px;
+}
+
+.skills-description{
+    position: absolute;
+    width: 850px;
+    height: 400px;
+    text-align: left;
+    top: 525px;
+    left: 120px;
+    color: white;
+    font-size: 12px;
+}
+
+.hbtitle{
+    color: white;
+    text-align: center;
+    margin-top: -750px;
+    margin-left: 950px;
+    font-size: 22px;
+}
+
+.hbtitle hr{
+    margin-left: 255px;
+    width: 440px;
+}
+
+.football-team{
+    color: white;
+    margin-left: 935px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.football-team img{
+    width: 200px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+.football2{
+    color: white;
+    margin-left: 955px;
+    margin-top: -15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.football2 img{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.gaming{
+    color: white;
+    margin-left: 1185px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.gaming img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.fm img{
+    width: auto;
+    float: center;
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 1385px;
+}
+
+.drawing{
+    position: absolute;
+    color: white;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 1310px;
+    font-size: 14px;
+}
+
+.drawing img{
+    width: 220px;
+    float: center;
+    position: absolute;
+    margin-left: -20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .navbar{
+        padding: 0;
+    }
+
+    .navbar .menu-hamburger{
+        display: block;
+    }
+
+    .navbar-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: #b7ceecaf;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+    }
+
+    .navbar-links .mobile-menu{
+        margin-left: 0;
+    
+    }
+    
+
+    .navbar-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .navbar-links ul li{
+        margin: 25px 0;
+        font-size: 2em;
+    }
+    
+}
+
